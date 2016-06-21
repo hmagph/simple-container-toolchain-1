@@ -78,7 +78,7 @@ stages:
 - name: VALIDATE
   inputs:
   - type: job
-    stage: Build
+    stage: STAGE
     job: Container build
   triggers:
   - type: stage
